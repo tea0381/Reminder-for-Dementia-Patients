@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>기억 도우미</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>📌 오늘의 일정</h1>
+
+    <div id="reminderCard" class="card">
+      <img id="reminderImage" src="pill.png" alt="이미지">
+      <p id="reminderText">약 드실 시간이에요</p>
+      <button onclick="playVoice()">🔊 음성 듣기</button>
+    </div>
+
+    <button onclick="nextReminder()" class="nextBtn">
+      다음 일정 보기
+    </button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
